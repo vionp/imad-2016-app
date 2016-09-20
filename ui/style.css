@@ -1,10 +1,12 @@
 body {
     font-family: sans-serif;
     background-color: lightyellow;
-    background-image:url("ui/BG.jpg");
     margin-top: 75px;
 }
 
+.bgiimg {
+    background-image:url("ui/BG.jpg");
+}
 .center {
     text-align: center;
 }
