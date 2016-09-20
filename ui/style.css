@@ -5,7 +5,7 @@ body {
 }
 
 .bgimg {
-    background-image:url("ui/BG.jpg");
+    background-image:url(ui/BG.jpg);
 }
 .center {
     text-align: center;
