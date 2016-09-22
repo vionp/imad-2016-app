@@ -4,7 +4,7 @@ var element=document.getElementById('main-text');
 element.innerHTML = 'New value is added';
 
 //writing the code that will move the image when you click on it
-var img= document.getElementById('img');
+var img= document.getElementById('imagemove');
 img.onclick = function() {
     img.style.marginLeft = '100px';
 };
