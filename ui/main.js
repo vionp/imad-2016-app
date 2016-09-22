@@ -21,6 +21,6 @@ button.onclick = function() {
     };
     
     //Make the request
-    request.Open('Get','http://vionp.imad.hasura-app.io/counter',true)
+    request.open('Get','http://vionp.imad.hasura-app.io/counter',true)
     request.send(null);
 }
