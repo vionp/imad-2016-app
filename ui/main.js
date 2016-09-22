@@ -6,6 +6,6 @@ element.innerHTML = 'New value is added';
 //writing the code that will move the image when you click on it
 var img= document.getElementById('imagemove');
 img.onclick = function() {
-    var interval = setInterval(moveLeft,200)
+    var interval = setInterval(moveRight,200)
     img.style.marginLeft = '200px';
 };
